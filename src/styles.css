@@ -1,0 +1,96 @@
+body {
+  font-family: "inter";
+  background-color:aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff
+}
+
+.square {
+  background: var(--e);
+  border: 1px solid #dadada;
+  color: #3f3f3f;
+  float: left;
+  font-family: "Ubuntu";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  transition: background-color 0.2s ease;
+}
+.square:hover {
+  transition: background-color 0s ease;
+  background-color: rgb(241, 241, 241);
+}
+.winning-square {
+  background-color: lightblue !important
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.board-grid {
+  border-radius: 6%;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+}
